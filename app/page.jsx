@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-between">
+    <main>
       <h2>HOME</h2>
     </main>
   )

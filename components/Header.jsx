@@ -7,7 +7,7 @@ import ThemeToggler from "./ThemeToggler";
 
 export default function Header() {
   return (
-    <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-4">
+    <div className="flex justify-between items-center py-4 md:py-6">
       <div className="flex">
         <MenuItem title="HOME" link="/" Icon={AiFillHome} />
         <MenuItem title="ABOUT" link="/about" Icon={BsFillInfoCircleFill} />

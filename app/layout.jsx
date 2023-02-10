@@ -5,7 +5,7 @@ import Providers from './Providers';
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className='dark:bg-gray-500 dark:text-gray-200 text-gray-700 transition-colors duration-300 min-h-screen select-none'>
         <Providers>
 
 
