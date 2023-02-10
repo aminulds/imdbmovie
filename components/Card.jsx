@@ -19,9 +19,9 @@ const Card = ({ result }) => {
           placeholder="blur"
           blurDataURL="/spinner.svg"
           alt="image is not available"
-        ></Image>
+        />
         <div className="p-2">
-          <p className="line-clamp-2 text-md">{result.overview}</p>
+          <p className="text-md line-clamp-3">{result.overview}</p>
           <h2 className="truncate text-lg font-bold">
             {result.title || result.name}
           </h2>
